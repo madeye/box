@@ -1,0 +1,7 @@
+shadowsocks:
+  image: madeye/box
+  ports:
+      - "443:8388/tcp"
+  environment:
+    - PASSWORD=9MLSpPmNt
+  restart: always
